@@ -1,0 +1,58 @@
+Basis Theory Documentación
+
+Basis Theory permite asegurar la recopilación, distribución, tratamiento de datos en sus aplicaciones independientemente de su ubicación y del volumen de datos.
+
+----------------------------------------------------------------------------------------
+
+Comencemos
+
+Empezamos
+Una breve descripción de cómo funciona Basis Theory y conceptos clave.
+
+
+Tarjetas
+Comience a recopilar, emitir, procesar y compartir datos con tarjetas de forma segura.
+
+
+Datos
+Guías para recopilar, compartir y procesar cualquier tipo de dato.
+
+-----------------------------------------------------------------------------------------
+
+
+Herramientas
+
+Server-side
+.NET
+.Java
+Go
+NodeJS
+Phyton
+Terraform
+
+Web
+React
+Javascript
+
+Mobile
+IOS
+Android
+
+-------------------------------------------------------------------------------------------
+
+Servicios
+
+API
+Rutas de nuestra API para gestionar todo el ciclo de vida de tus datos y recursos.
+
+Conceptos
+Aprende sobre los conceptos clave de la plataforma.
+
+Explora
+Descubre nuestras guías con todas las informaciones para tus necesidades de regulación y cumplimiento.
+
+Ejemplos
+Ejemplos de código y herramientas para ayudarte a comenzar más rápidamente.
+
+Soporte
+Si tienes algún problema con tu integración, ponte en contacto con nuestro servicio de soporte.

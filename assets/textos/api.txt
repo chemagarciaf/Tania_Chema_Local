@@ -1,0 +1,32 @@
+Inicio
+Servicio de Pago
+Banco de Datos
+Datos
+Características
+Información
+Expresiones
+Guía
+CheckList
+API
+SDK
+
+--------------------------------------------------------------------------------------
+
+Inicio
+Recursos
+Proxy
+Web Tokens
+Consideraciones Clave
+Conclusiones
+
+---------------------------------------------------------------------------------------
+
+Recibir tarjetas a través de API
+
+Al construir APIs para diversas empresas y servicios como plataformas de comercio electrónico, procesadores y facilitadores de pagos, instituciones financieras, servicios de suscripción, empresas de viajes y hospitalidad, startups de tecnología financiera, puede ser necesario recibir datos del titular de la tarjeta en las cargas de solicitud. Sin embargo, puede resultar desafiante navegar el PCI DSS y asegurarse de que su aplicación cumpla con todos los controles de seguridad necesarios para cumplir con los requisitos.
+
+En esta guía, demostraremos cómo configurar un Proxy de Basis Theory para interceptar las solicitudes de API y webhooks que contienen tarjetas, al tiempo que almacenamos de manera segura los datos del titular de la tarjeta como tokens con la Plataforma Basis Theory. Si sigue esta guía paso a paso, estará reduciendo significativamente el alcance de cumplimiento de PCI DSS en sus servidores y base de datos. Si desea obtener más información sobre cómo podemos ayudarlo a cumplir hasta el 95% de los requisitos de PCI, o si necesita ayuda para completar su SAQ, ¡comuníquese con nuestro equipo!
+
+Al enfrentarse al desafío de construir APIs para diversas empresas y servicios, como plataformas de comercio electrónico, procesadores y facilitadores de pagos, instituciones financieras, servicios de suscripción, empresas de viajes y hospitalidad, así como startups de tecnología financiera, se vuelve esencial recibir datos del titular de la tarjeta en las solicitudes de carga. No obstante, este proceso puede ser complicado al considerar la necesidad de cumplir con los rigurosos estándares de seguridad establecidos por el PCI DSS, garantizando que la aplicación cumpla con todos los controles necesarios para satisfacer los requisitos establecidos.
+
+En la presente guía, abordaremos cómo configurar un Proxy de Basis Theory para interceptar las solicitudes de API y webhooks que contienen información de tarjetas. Al mismo tiempo, se detallará cómo almacenar de forma segura los datos del titular de la tarjeta mediante la generación de tokens a través de la Plataforma Basis Theory. Siguiendo cuidadosamente esta guía paso a paso, los usuarios podrán reducir significativamente el alcance de cumplimiento de PCI DSS en sus servidores y bases de datos, al tiempo que fortalecen la seguridad de la manipulación de datos sensibles.

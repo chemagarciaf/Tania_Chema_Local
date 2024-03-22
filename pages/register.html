@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./../css/common.css">
+    <link rel="stylesheet" href="./../css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="./../assets/images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__container">
+            <!-- HEADER DIV -->
+            <div class="header__div">
+                <a href="./../index.html"><img src="./../assets/images/header_logo.svg" alt="" class="header__logo"></a>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <a href="./../index.html">
+                            <li class="nav__item">Guias</li>
+                        </a>
+                        <a href="./../pages/api.html">
+                            <li class="nav__item">Api</li>
+                        </a>
+                        <a href="#">
+                            <li class="nav__item">Herramientas</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- HEADER DIV -->
+            <div class="header__div">
+                <input class="header__search" type="search" name="searche" id="search" placeholder="Buscar Ctrl+K">
+                <i class="header__icon fa-brands fa-github"></i>
+                <button class="header__button button__register">
+                    <a href="./pages/register.html" class="registro">Register</a></button>
+                <button class="header__button button__login registro">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- MAIN -->
+        <main class="main">
+            <div class="register__div">
+                <img class="register__img" src="./../assets/images/register/logo.png" alt="">
+                <p>Una plataforma compatible y amigable para desarrolladores. Nuestro principal objetivo es asegurar,
+                    utilizar y gestionar los datos son importantes para ti.</p>
+                <div class="register__nuevos">
+                    <div class="register__nuevo">
+                        <img src="./../assets/images/register/nuevo.png" alt="">
+                        <p>Cifrado seguro</p>
+                    </div>
+                    <div class="register__nuevo">
+                        <img src="./../assets/images/register/nuevo.png" alt="">
+                        <p>Desarrollo Software</p>
+                    </div>
+                    <div class="register__nuevo">
+                        <img src="./../assets/images/register/nuevo.png" alt="">
+                        <p>Escalabilidad de sistemas</p>
+                    </div>
+                </div>
+                <div>
+                    <p>Nuestros Partners</p>
+                    <img src="./../assets/images/register/footer.jpg" alt="">
+                </div>
+            </div>
+            <form class="register__div">
+                <div class="register__rrss">
+                    <a href="" class="rrss__link">
+                        <img src="./../assets/images/register/google.svg" alt="">
+                        Google
+                    </a>
+                    <a href="" class="rrss__link">
+                        <img src="./../assets/images/register/github.svg" alt="">
+                        GitHub
+                    </a>
+                </div>
+                <fieldset>
+                    <legend>O bien, registrate aqui</legend>
+                </fieldset>
+                <div class="inputs">
+                    <input required class="register__input" type="email" placeholder="Email">
+                    <input required class="register__input" type="password" placeholder="Passwordd">
+                    <input required class="register__input_50" type="text" placeholder="Nombre">
+                    <input required class="register__input_50" type="text" placeholder="Apellido">
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox">Estoy de acuerdo con los <span>terminos y condiciones</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox">Recibir noticias de <span>Basis Theory</span>
+                </div>
+                <button type="submit" class="submit__button">
+                    Crear Cuenta
+                </button>
+                <p class="login">Ya estoy registrado. <span>Login</span></p>
+
+
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

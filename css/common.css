@@ -1,0 +1,144 @@
+@font-face {
+    font-family: inter;
+    src: url(./../assets/fonts/Inter/Inter-Regular.ttf);
+};
+
+@font-face {
+    font-family: outfit;
+    src: url(../assets/fonts/Outfit/Outfit-Regular.ttf);
+}
+
+:root{
+    --background-default: #070a1b;
+--text-primary: #ebedff;
+--primary: #00d2ef;
+
+/* Header */
+--border: #d1d7ff26;
+--border-hover:#8d8d8d80;
+--header-background: #121324;
+--nav-link: #8c90a4;
+
+/* Main */
+--text-color: #99a0bf;
+
+/* Cards */
+--card-background: #ffffff0d;
+--card-background-2: rgba(255, 255, 255, 0.17);
+
+/* borde */
+--borde: 1px solid firebrick;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-default);
+    color: var(--text-color);
+    font-family: inter;
+    width: 100%;
+
+    padding-bottom: 50px;
+}
+
+
+header {
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    overflow: visible;
+    /* margin-bottom: 25px; */
+    background-color: var(--header-background);
+    border-bottom: 1px solid var(--border);
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__container {
+    background-color: var(--header-background);
+    position: relative;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    overflow: visible;
+    margin: 0 auto;
+}
+
+.header__div {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    width: 55%;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav__list a, .registro{
+    color: var(--text-color);
+    text-decoration: none;
+}
+.nav__list a:visited, .registro:visited{
+    color: var(--text-color);
+    text-decoration: none;
+}
+.nav__list a:hover{
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.header__div i{
+    font-size: 25px;
+}
+.header__div i:hover{
+    color: var(--primary);
+}
+
+.header__search {
+    width: 45%;
+    height: 35px;
+    outline: none;
+    border: 2px solid var(--border);
+    background-color: #00000000;
+    padding-left: 15px;
+    border-radius: 4px;
+}
+.header__search:focus {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.header__button{
+    height: 35px;
+    width: 20%;
+    background-color: #00000000;
+    color: var(--text-color);
+    border: 2px solid var(--border);
+    border-radius: 3px;
+}
+.registro:hover {
+    color: var(--primary);
+}

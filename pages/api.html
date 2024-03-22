@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link rel="stylesheet" href="./../css/common.css">
+    <link rel="stylesheet" href="./../css/api.css">
+    <link rel="shortcut icon" href="./../assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__container">
+            <!-- HEADER DIV -->
+            <div class="header__div">
+                <a href="./../index.html"><img src="./../assets/images/header_logo.svg" alt="" class="header__logo"></a>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <a href="./../index.html">
+                            <li class="nav__item">Guias</li>
+                        </a>
+                        <a href="./../pages/api.html">
+                            <li class="nav__item">Api</li>
+                        </a>
+                        <a href="#">
+                            <li class="nav__item">Herramientas</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- HEADER DIV -->
+            <div class="header__div">
+                <input class="header__search" type="search" name="searche" id="search" placeholder="Buscar Ctrl+K">
+                <i class="header__icon fa-brands fa-github"></i>
+                <button class="header__button button__register"><a href="./../pages/register.html"
+                        class="registro">Register</a></button>
+                <button class="header__button button__login registro">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+
+        <nav class="aside__left">
+            <ul class="aside__left__list">
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/inicio.svg" alt="logo item">
+                        <a class="" href="#">Inicio</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/servicio.svg" alt="logo item">
+                        <a class="" href="#">Servicio de Pago</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/banco.svg" alt="logo item">
+                        <a class="" href="#">Banco de Datos</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/datos.svg" alt="logo item">
+                        <a class="" href="#">Datos</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <hr class="">
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/caracteristicas.svg" alt="logo item">
+                        <a class="" href="#">Características</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/informacion.svg" alt="logo item">
+                        <a class="" href="#">Información</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/expresiones.svg" alt="logo item">
+                        <a class="" href="#">Expresiones</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/guia.svg" alt="logo item">
+                        <a class="" href="#">Guía</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/checkList.svg" alt="logo item">
+                        <a class="" href="#">CheckList</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <hr class="">
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/api.svg" alt="logo item">
+                        <a class="" href="#">API</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+                <li class="aside__left__li">
+                    <div class="li__div">
+                        <img class="" src="./../assets/images/api/sdk.svg" alt="logo item">
+                        <a class="" href="#">SDK</a>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+
+            </ul>
+        </nav>
+
+
+
+
+        <div class="contenido">
+            <h1 class="contenido__title">Recibir tarjetas a través de API</h1>
+            <p class="contenido__text">
+                Al construir APIs para diversas empresas y servicios como plataformas de comercio electrónico,
+                procesadores y facilitadores de pagos, instituciones financieras, servicios de suscripción, empresas de
+                viajes y hospitalidad, startups de tecnología financiera, puede ser necesario recibir datos del titular
+                de la tarjeta en las cargas de solicitud. Sin embargo, puede resultar desafiante navegar el PCI DSS y
+                asegurarse de que su aplicación cumpla con todos los controles de seguridad necesarios para cumplir con
+                los requisitos.
+            </p>
+            <p class="contenido__text">
+                En esta guía, demostraremos cómo configurar un Proxy de Basis Theory para interceptar las solicitudes de
+                API y webhooks que contienen tarjetas, al tiempo que almacenamos de manera segura los datos del titular
+                de la tarjeta como tokens con la Plataforma Basis Theory. Si sigue esta guía paso a paso, estará
+                reduciendo significativamente el alcance de cumplimiento de PCI DSS en sus servidores y base de datos.
+                Si desea obtener más información sobre cómo podemos ayudarlo a cumplir hasta el 95% de los requisitos de
+                PCI, o si necesita ayuda para completar su SAQ, ¡comuníquese con nuestro equipo!
+            </p>
+            <img src="./../assets/images/api/diagrama.png" alt="">
+            <p>Al enfrentarse al desafío de construir APIs para diversas empresas y servicios, como plataformas de
+                comercio electrónico, procesadores y facilitadores de pagos, instituciones financieras, servicios de
+                suscripción, empresas de viajes y hospitalidad, así como startups de tecnología financiera, se vuelve
+                esencial recibir datos del titular de la tarjeta en las solicitudes de carga. No obstante, este proceso
+                puede ser complicado al considerar la necesidad de cumplir con los rigurosos estándares de seguridad
+                establecidos por el PCI DSS, garantizando que la aplicación cumpla con todos los controles necesarios
+                para satisfacer los requisitos establecidos.</p>
+            <p>En la presente guía, abordaremos cómo configurar un Proxy de Basis Theory para interceptar las
+                solicitudes de API y webhooks que contienen información de tarjetas. Al mismo tiempo, se detallará cómo
+                almacenar de forma segura los datos del titular de la tarjeta mediante la generación de tokens a través
+                de la Plataforma Basis Theory. Siguiendo cuidadosamente esta guía paso a paso, los usuarios podrán
+                reducir significativamente el alcance de cumplimiento de PCI DSS en sus servidores y bases de datos, al
+                tiempo que fortalecen la seguridad de la manipulación de datos sensibles.</p>
+        </div>
+
+
+
+
+        <aside class="aside__right">
+            <ul class="nav__list__right">
+                <li class="">
+                    <a class="nav__link" href="#">Inicio</a>
+                </li>
+                <li class="">
+                    <a class="nav__link" href="#">Recursos</a>
+                </li>
+                <li class="">
+                    <a class="nav__link" href="#">Proxy</a>
+                </li>
+                <li class="">
+                    <a class="nav__link" href="#">Web Tokens</a>
+                </li>
+                <li class="">
+                    <a class="nav__link" href="#">Consideraciones Clave</a>
+                </li>
+                <li class="">
+                    <a class="nav__link" href="#">Conclusiones</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+@font-face {
+    font-family: outfit;
+    src: url(../assets/fonts/Outfit/Outfit-Regular.ttf);
+}
+body{
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+
+
+/* MAIN */
+
+.section {
+    margin-bottom: 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section__title {
+    font-family: outfit;
+    font-size: 30px;
+    font-weight: 100;
+    color: var(--text-primary);
+    width: 100%;
+}
+
+.section1__title {
+    font-family: outfit;
+    font-size: 50px;
+}
+
+
+/* SECTION 1 */
+
+/* SECTION 2 */
+
+.section2__cards, .section4__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.section2__card, .section4__card{
+    flex: 1 1 300px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    background-color: var(--header-background);
+    position: relative;
+    transition-duration: 0.3s;
+}
+.section2__card:hover{
+    border: 1px solid beige;
+    
+}
+
+.div__img{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.card__img{
+    position: relative;
+    width: 70px;
+}
+
+.card__title{
+    font-family: outfit;
+    font-size: 22px;
+    font-weight: 100;
+    color: var(--text-primary);
+}
+
+.card__text{
+    font-size: 15px;
+    font-weight: 100;
+    color: var(--text-color);
+}
+
+
+/* SECTION 3 */
+
+.section3__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.section3__card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.card3__title{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.section3 .fichas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+
+.section3__card:nth-child(1){
+    flex: 1 1 450px;
+}
+
+.section3__card:nth-child(n+2){
+    flex: 1 1 300px;
+}
+
+.section3 .ficha{
+    padding: 4px 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 1px solid var(--border);
+    background-color: var(--header-background);
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.ficha:hover{
+    border: 1px solid beige;
+}
+
+.section4__card:hover{
+    border: 1px solid beige;
+
+}
